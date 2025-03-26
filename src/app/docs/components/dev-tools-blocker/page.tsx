@@ -55,6 +55,27 @@ function App() {
         <p className="leading-7">
           When a user tries to access developer tools, the component will detect it and display a warning toast message.
         </p>
+        {/* Custom Style Toast */}
+        <p className="leading-7">
+          <b>Custom Style Toast</b>:
+        </p>
+        <pre className="p-4 bg-muted rounded-lg overflow-x-auto my-4">
+          <code>{`import { DevToolsBlocker } from 'react-mower';
+
+<DevToolsBlocker
+  toastOptions={{
+  position: "bottom-right",
+  autoClose: 3000,
+  closeOnClick: false,
+  pauseOnHover: true,
+  color: "#ff9800"
+}}
+>
+  <App />
+</DevToolsBlocker>
+    `}</code>
+        </pre>
+        {/* Custom Style Toast / */}
       </div>
 
       <div className="space-y-4">
@@ -95,7 +116,6 @@ function App() {
         <pre className="p-4 bg-muted rounded-lg overflow-x-auto my-4">
           <code>{`import React from 'react';
 import ReactDOM from 'react-dom';
-import 'react-toastify/dist/ReactToastify.css';
 import { DevToolsBlocker } from 'react-mower';
 import App from './App';
 

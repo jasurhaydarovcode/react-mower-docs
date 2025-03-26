@@ -15,6 +15,9 @@ const fontSans = FontSans({
 export const metadata: Metadata = {
   title: "React Mower Documentation",
   description: "Documentation for React Mower - A powerful React package for protecting your web applications from unwanted developer tools access and cursor-based interactions.",
+  icons: {
+    icon: "/react-mower-logo-Photoroom.png"
+  },
 };
 
 export default function RootLayout({

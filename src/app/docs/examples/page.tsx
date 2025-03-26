@@ -33,7 +33,6 @@ export default function ExamplesPage() {
         <pre className="p-4 bg-muted rounded-lg overflow-x-auto my-4">
           <code>{`import React from 'react';
 import ReactDOM from 'react-dom';
-import 'react-toastify/dist/ReactToastify.css';
 import { DevToolsBlocker } from 'react-mower';
 import App from './App';
 

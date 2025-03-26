@@ -13,7 +13,7 @@ export default function Home() {
           <div className="grid gap-6 lg:grid-cols-[1fr_400px] lg:gap-12 xl:grid-cols-[1fr_500px]">
             <div className="flex flex-col justify-center space-y-4">
               <div className="space-y-2">
-                <Badge className="inline-block" variant="outline">v1.3.30</Badge>
+                <Badge className="inline-block" variant="outline">v1.4.1</Badge>
                 <h1 className="text-3xl font-bold tracking-tighter sm:text-5xl xl:text-6xl">
                   <span className="text-reactmower-blue">React</span> Mower
                 </h1>
