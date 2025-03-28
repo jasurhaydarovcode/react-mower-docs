@@ -129,8 +129,8 @@ export default App;`}</code>
 
       <div className="flex flex-col sm:flex-row gap-4 mt-6">
         <Button asChild>
-          <Link href="/docs/api">
-            Next: API Reference
+          <Link href="/docs/components/copy-paste-protected">
+            Next: CopyPasteProtected
             <ArrowRightIcon className="ml-2 h-4 w-4" />
           </Link>
         </Button>

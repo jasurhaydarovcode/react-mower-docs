@@ -41,6 +41,10 @@ const sidebarNav = [
         title: "GitHubStarCount",
         href: "/docs/components/github-star-count",
       },
+      {
+        title: "CopyPasteProtectionPage",
+        href: "/docs/components/copy-paste-protection",
+      },
     ],
   },
   {
